@@ -1,9 +1,9 @@
-import './App.css';
-import React, { Component } from 'react';
-import Sidebar from './components/Sidebar'
-import Projects from './components/Projects'
-import About from './components/About'
-import Footer from './components/Footer'
+import "./App.css";
+import React, { Component } from "react";
+import Sidebar from "./components/Sidebar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -12,9 +12,9 @@ class App extends Component {
         <div id="container-wrap">
           <Sidebar />
           <div id="colorlib-main">
-            {/* <About /> */}
+            <About />
+            <Projects />
             <Footer />
-            {/* <Projects /> */}
           </div>
         </div>
       </div>

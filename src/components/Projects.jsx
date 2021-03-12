@@ -18,7 +18,7 @@ export default class Sidebar extends Component {
         >
           <div className="col-md-6">
             <img
-              src="images/project2.png"
+              src="img/project2.png"
               alt=""
               style={{ height: 400, width: 550, borderRadius: 20 }}
             />
@@ -49,6 +49,7 @@ export default class Sidebar extends Component {
               </p>
               <a
                 className="btn btn-primary"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://vigorous-mahavira-083e3a.netlify.app/"
               >
@@ -85,6 +86,7 @@ export default class Sidebar extends Component {
               </p>
               <a
                 className="btn btn-primary"
+                rel="noopener noreferrer"
                 target="_blank"
                 href="https://mtaafix.herokuapp.com"
               >
@@ -96,7 +98,7 @@ export default class Sidebar extends Component {
         <div>
           <div className="col-md-6">
             <img
-              src="images/project1.png"
+              src="img/project1.png"
               alt=""
               style={{
                 height: 400,
@@ -112,7 +114,7 @@ export default class Sidebar extends Component {
           >
             <div className="col-md-6">
               <img
-                src="images/project3.png"
+                src="img/project3.png"
                 alt=""
                 style={{
                   height: 400,
@@ -148,6 +150,7 @@ export default class Sidebar extends Component {
                 </p>
                 <a
                   className="btn btn-primary"
+                  rel="noopener noreferrer"
                   target="_blank"
                   href="https://gramapp-ruiru.herokuapp.com"
                 >
@@ -184,6 +187,7 @@ export default class Sidebar extends Component {
                 </p>
                 <a
                   className="btn btn-primary"
+                  rel="noopener noreferrer"
                   target="_blank"
                   href="https://erastus-1.github.io/Pizzeria/"
                 >

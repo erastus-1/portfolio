@@ -7,8 +7,8 @@ export default class Sidebar extends Component {
         <div className="row">
           <div className="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
             <img
-              src="images/front.png"
-              alt="image"
+              src="img/front.png"
+              alt="font"
               style={{ height: 100, width: 100 }}
               id="front"
             />
@@ -24,8 +24,8 @@ export default class Sidebar extends Component {
           <hr className="clearfix w-100 d-md-none" />
           <div className="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
             <img
-              src="images/back1.jpg"
-              alt="image"
+              src="img/back1.jpg"
+              alt="back"
               style={{ height: 150, width: 150 }}
               id="back"
             />
@@ -37,8 +37,8 @@ export default class Sidebar extends Component {
           </div>
           <div className="col-md-4 col-lg-3 text-center mx-auto my-4">
             <img
-              src="images/tools.jpg"
-              alt="image"
+              src="img/tools.jpg"
+              alt="tools"
               style={{ height: 100, width: 100 }}
               id="tools"
             />
@@ -63,7 +63,7 @@ export default class Sidebar extends Component {
           <div className="col-md-3">
             <div className="card card-1" style={{ height: 300 }}>
               <img
-                src="images/html.png"
+                src="img/html.png"
                 alt="Html"
                 style={{ maxWidth: "20rem", height: "max-content" }}
               />
@@ -71,22 +71,18 @@ export default class Sidebar extends Component {
           </div>
           <div className="col-md-3">
             <div className="card card-2" style={{ height: 300 }}>
-              <img src="images/css2.png" alt="Css" />
+              <img src="img/css2.png" alt="Css" />
             </div>
           </div>
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-3" style={{ height: 300 }}>
-              <img
-                src="images/js2.png"
-                alt="Js"
-                style={{ maxHeight: "100%" }}
-              />
+              <img src="img/js2.png" alt="Js" style={{ maxHeight: "100%" }} />
             </div>
           </div>
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-4" style={{ height: 300 }}>
               <img
-                src="images/python2.jpg"
+                src="img/python2.jpg"
                 alt="Python"
                 style={{ height: "max-content", width: "max-content" }}
               />
@@ -95,7 +91,7 @@ export default class Sidebar extends Component {
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-5" style={{ height: 300 }}>
               <img
-                src="images/flask2.png"
+                src="img/flask2.png"
                 alt="Flask"
                 style={{ height: "max-content", width: "max-content" }}
               />
@@ -104,18 +100,16 @@ export default class Sidebar extends Component {
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-6" style={{ height: 300 }}>
               <img
-                src="images/django4.png"
+                src="img/django4.png"
                 alt="Django"
                 style={{ height: "max-content", width: "max-content" }}
               />
             </div>
           </div>
-        </div>
-        <div>
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-7" style={{ height: 300 }}>
               <img
-                src="images/jquery.png"
+                src="img/jquery.png"
                 alt="Jquery"
                 style={{ height: "max-content", width: "max-content" }}
               />
@@ -124,14 +118,14 @@ export default class Sidebar extends Component {
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-8" style={{ height: 300 }}>
               <img
-                src="images/angular2.jpg"
+                src="img/angular2.jpg"
                 alt="Angular"
                 style={{ height: "max-content", maxWidth: "21rem" }}
               />
             </div>
           </div>
         </div>
-      </div>
+        </div>
     );
   }
 }

@@ -13,6 +13,7 @@ export default class Sidebar extends Component {
                   fontSize: "large",
                   fontWeight: "bold",
                 }}
+                rel="noopener noreferrer" target="_blank"
                 href="https://github.com/erastus-1/"
                 className="btn btn-github"
               >
@@ -53,7 +54,7 @@ export default class Sidebar extends Component {
           <div className="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
             <div className="title" style={{ fontSize: "x-large" }}>
               <img
-                src="imag/ruiru.jpg"
+                src="img/ruiru.jpg"
                 alt="Eastus Ruiru"
                 style={{ borderRadius: "50%", height: 300, width: 300 }}
               />
@@ -76,35 +77,32 @@ export default class Sidebar extends Component {
             >
               Social Media
             </h5>
-            <a
+            <a rel="noopener noreferrer" target="_blank"
               href="https://web.facebook.com/Erass N Stars"
               type="button"
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-fb"
             >
-              <i className="fab fa-facebook-f" style={{ fontSize: 48 }} />
+              <i className="icon-facebook2" />
             </a>
-            <a
+            <a rel="noopener noreferrer" target="_blank"
               href="https://instagram.com/eras_n_stars"
               type="button"
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-istagram"
             >
-              <i className="fab fa-instagram" style={{ fontSize: 48 }} />
+              <i className="icon-instagram" />
             </a>
-            <a
+            <a rel="noopener noreferrer" target="_blank"
               href="https://github.com/erastus-1"
               type="button"
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-github"
             >
-              <i className="fab fa-github-square" style={{ fontSize: 48 }} />
+              <i className="icon-github"></i>
             </a>
-            <a href="https://www.linkedin.com/feed/Erastus Kariuki">
-              <i
-                className="fab fa-linkedin"
-                style={{ color: "black", fontSize: 48 }}
-              />
+            <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/feed/Erastus Kariuki">
+            <i className="icon-linkedin2" />
             </a>
           </div>
         </div>
