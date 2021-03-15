@@ -3,7 +3,9 @@ import React, { Component } from "react";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="container" style={{ marginBottom: 20 }}>
+      <div className="container" style={{ marginBottom: 20, backgroundcolor: "#303030"}}>
+         <div className="next"><a href="/#/Projects" > <i className="material-icons large">chevron_right</i></a></div>
+                <div className="back"><a href="/#/About" > <i className="material-icons large">chevron_left</i></a></div>
         <h1 style={{ fontWeight: "bold", textAlign: "center" }}>
           Projects Worked on
         </h1>
@@ -194,6 +196,18 @@ export default class Sidebar extends Component {
                   Visit Website
                 </a>
               </div>
+            </div>
+            <div className="col-md-6">
+              <img
+                src="img/project5.png"
+                alt=""
+                style={{
+                  height: 400,
+                  width: 550,
+                  paddingTop: 10,
+                  borderRadius: 20,
+                }}
+              />
             </div>
           </div>
         </div>

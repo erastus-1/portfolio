@@ -3,9 +3,10 @@ import React, { Component } from "react";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container" style={{ backgroundcolor: "#303030"}}>
+        <div className="next"><a href="/#/about" > <i className="material-icons large">chevron_right</i></a></div>
         <div className="row">
-          <div className="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
+          <div className="col-md-4">
             <p>
               <a
                 style={{
@@ -51,7 +52,7 @@ export default class Sidebar extends Component {
               </a>
             </p>
           </div>
-          <div className="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+          <div className="col-md-4">
             <div className="title" style={{ fontSize: "x-large" }}>
               <img
                 src="img/ruiru.jpg"
@@ -70,6 +71,7 @@ export default class Sidebar extends Component {
         </div>
         <div>
           <hr className="clearfix w-100 d-md-none" />
+          <div className="row">
           <div className="col-md-4 col-lg-4 text-center mx-auto my-4">
             <h5
               className="font-weight-bold text-uppercase mb-4"
@@ -83,7 +85,11 @@ export default class Sidebar extends Component {
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-fb"
             >
-              <i className="icon-facebook2" />
+              <img
+                src="img/face.png"
+                alt="Linkedin"
+                style={{ borderRadius: "50%", height: 300, width: 300 }}
+              />
             </a>
             <a rel="noopener noreferrer" target="_blank"
               href="https://instagram.com/eras_n_stars"
@@ -91,7 +97,11 @@ export default class Sidebar extends Component {
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-istagram"
             >
-              <i className="icon-instagram" />
+              <img
+                src="img/insta.png"
+                alt="Instagram"
+                style={{ borderRadius: "50%", height: 300, width: 300 }}
+              />
             </a>
             <a rel="noopener noreferrer" target="_blank"
               href="https://github.com/erastus-1"
@@ -99,13 +109,22 @@ export default class Sidebar extends Component {
               style={{ paddingRight: 15, color: "black" }}
               className="btn-floating btn-github"
             >
-              <i className="icon-github"></i>
+              <img
+                src="img/git.png"
+                alt="Github"
+                style={{ borderRadius: "50%", height: 300, width: 300 }}
+              />
             </a>
             <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/feed/Erastus Kariuki">
-            <i className="icon-linkedin2" />
+            <img
+                src="img/link.jpg"
+                alt="Linkedin"
+                style={{ borderRadius: "50%", height: 300, width: 300 }}
+              />
             </a>
           </div>
         </div>
+      </div>
       </div>
     );
   }
