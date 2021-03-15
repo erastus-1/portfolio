@@ -3,9 +3,28 @@ import React, { Component } from "react";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="container" style={{ marginBottom: 20, backgroundcolor: "#303030"}}>
-         <div className="next"><a href="/#/Projects" > <i className="material-icons large">chevron_right</i></a></div>
-                <div className="back"><a href="/#/About" > <i className="material-icons large">chevron_left</i></a></div>
+      <div
+        className="container"
+        style={{ marginBottom: 20, backgroundcolor: "#303030" }}
+      >
+        <div className="next">
+          <a href="/#/Projects">
+            <img
+              src="img/direct.png"
+              alt="right"
+              style={{ borderradius: "50%", height: 50, width: 50 }}
+            />
+          </a>
+        </div>
+        <div className="back">
+          <a href="/#/About">
+            <img
+              src="img/direct.png"
+              alt="left"
+              style={{ borderradius: "50%", height: 50, width: 50, backgroundcolor:"black," }}
+            />
+          </a>
+        </div>
         <h1 style={{ fontWeight: "bold", textAlign: "center" }}>
           Projects Worked on
         </h1>
@@ -14,7 +33,6 @@ export default class Sidebar extends Component {
           style={{
             marginTop: 20,
             paddingTop: 10,
-            backgroundColor: "whitesmoke",
             height: 500,
           }}
         >
@@ -110,10 +128,7 @@ export default class Sidebar extends Component {
               }}
             />
           </div>
-          <div
-            className="row"
-            style={{ marginTop: 20, backgroundColor: "whitesmoke" }}
-          >
+          <div className="row">
             <div className="col-md-6">
               <img
                 src="img/project3.png"

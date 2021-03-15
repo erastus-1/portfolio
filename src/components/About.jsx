@@ -3,9 +3,27 @@ import React, { Component } from "react";
 export default class Sidebar extends Component {
   render() {
     return (
-      <div className="container" style={{ backgroundcolor: "#303030" }} >
-         <div className="next"><a href="/#/" > <i className="material-icons large">chevron_right</i></a></div>
-                <div className="back"><a href="/#/Projects" > <i className="material-icons large">chevron_left</i></a></div>
+      <div className="container" style={{ backgroundcolor: "#303030" }}>
+        <div className="next">
+          <a href="/#/Projects">
+            {" "}
+            <img
+              src="img/direct.png"
+              alt="right"
+              style={{ borderradius: "50%", height: 50, width: 50 }}
+            />
+          </a>
+        </div>
+        <div className="back">
+          <a href="/">
+            {" "}
+            <img
+              src="img/direct.png"
+              alt="left"
+              style={{ borderradius: "50%", height: 50, width: 50, }}
+            />
+          </a>
+        </div>
         <div className="row">
           <div className="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
             <img
@@ -54,7 +72,10 @@ export default class Sidebar extends Component {
             </ul>
           </div>
         </div>
-        <h1 style={{ fontWeight: "bold", textAlign: "center", paddingTop: 10 }} id="skills">
+        <h1
+          style={{ fontWeight: "bold", textAlign: "center", paddingTop: 10 }}
+          id="skills"
+        >
           Skills.
         </h1>
         <small style={{ fontWeight: "bold", textAlign: "center" }}>
@@ -127,7 +148,7 @@ export default class Sidebar extends Component {
             </div>
           </div>
         </div>
-        </div>
+      </div>
     );
   }
 }
