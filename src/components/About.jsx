@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../scss/styles.css";
 
 export default class Sidebar extends Component {
   render() {
@@ -24,8 +25,12 @@ export default class Sidebar extends Component {
             />
           </a>
         </div>
-        <div className="row">
-          <div className="col-md-4 col-lg-4 mr-auto my-md-4 my-0 mt-4 mb-1">
+        <h1 style={{ fontweight: "bold", textAlign: "center" }}>
+  About
+</h1>
+
+        <div className="row" style={{ height: 450 }}>
+          <div className="col-md-4">
             <img
               src="img/front.png"
               alt="font"
@@ -42,7 +47,7 @@ export default class Sidebar extends Component {
             </ul>
           </div>
           <hr className="clearfix w-100 d-md-none" />
-          <div className="col-md-4 col-lg-4 mx-auto my-md-4 my-0 mt-4 mb-1">
+          <div className="col-md-4">
             <img
               src="img/back1.jpg"
               alt="back"
@@ -55,7 +60,7 @@ export default class Sidebar extends Component {
               <li>PosgreSQL</li>
             </ul>
           </div>
-          <div className="col-md-4 col-lg-3 text-center mx-auto my-4">
+          <div className="col-md-4">
             <img
               src="img/tools.jpg"
               alt="tools"
@@ -88,18 +93,18 @@ export default class Sidebar extends Component {
               <img
                 src="img/html.png"
                 alt="Html"
-                style={{ maxWidth: "20rem", height: "max-content" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>
           <div className="col-md-3">
             <div className="card card-2" style={{ height: 300 }}>
-              <img src="img/css2.png" alt="Css" />
+              <img src="img/css2.png" alt="Css" style={{ height: 200 }}/>
             </div>
           </div>
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
             <div className="card card-3" style={{ height: 300 }}>
-              <img src="img/js2.png" alt="Js" style={{ maxHeight: "100%" }} />
+              <img src="img/js2.png" alt="Js"  />
             </div>
           </div>
           <div className="col-md-3" style={{ paddingBottom: 80 }}>
@@ -107,7 +112,7 @@ export default class Sidebar extends Component {
               <img
                 src="img/python2.jpg"
                 alt="Python"
-                style={{ height: "max-content", width: "max-content" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>
@@ -116,7 +121,7 @@ export default class Sidebar extends Component {
               <img
                 src="img/flask2.png"
                 alt="Flask"
-                style={{ height: "max-content", width: "max-content" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>
@@ -125,7 +130,7 @@ export default class Sidebar extends Component {
               <img
                 src="img/django4.png"
                 alt="Django"
-                style={{ height: "max-content", width: "max-content" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>
@@ -134,7 +139,7 @@ export default class Sidebar extends Component {
               <img
                 src="img/jquery.png"
                 alt="Jquery"
-                style={{ height: "max-content", width: "max-content" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>
@@ -143,7 +148,7 @@ export default class Sidebar extends Component {
               <img
                 src="img/angular2.jpg"
                 alt="Angular"
-                style={{ height: "max-content", maxWidth: "21rem" }}
+                style={{ height: 200 }}
               />
             </div>
           </div>

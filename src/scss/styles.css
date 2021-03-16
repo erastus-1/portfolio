@@ -19,7 +19,7 @@
 .card img {
 	position: absolute;
 	top: 20px;
-	max-height: 80%;
+	max-height: 100%;
 	max-width: 15rem;
 }
 
@@ -42,7 +42,7 @@
 	box-shadow: 0 6px 10px rgb(65, 64, 64), 0 0 6px rgba(0, 0, 0, .05);
 	transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
 	cursor: pointer;
-	color: white;
+	color: brown;
 }
 
 .cardd:hover {
@@ -64,22 +64,21 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0%;
 	top: 45%;
   }
-    .cool-navbar {
-		background-color: #3b3a3a !important;
-		width: 35% !important;
-		display: inline-flex;
-		justify-content: space-evenly;
-		margin: 2em 2em 0.5em 32em !important;
-		border-radius: 2%;
-	  }
-	  #nav {
-		border: none !important;
-		text-align: center;
-	  }
-	  
-	  nav a {
-		color: #ffa444 !important;
-		font-family: fantasy;
-		font-size: 19px !important;
-		
-	  }
+  .cool-navbar {
+	background-color: #3b3a3a !important;
+	width: 35% !important;
+	display: -webkit-inline-flex;
+	justify-content: space-evenly;
+	margin: 2em 2em 0.5em 32em !important;
+	border-radius: 2%;
+  }
+  #nav {
+	border: none !important;
+	text-align: center;
+  }
+  
+  nav a {
+	color: #ffa444 !important;
+	font-family: fantasy;
+	font-size: 19px !important;
+  }
