@@ -38,13 +38,12 @@ export default class Sidebar extends Component {
               id="front"
             />
             <h3>Front-end</h3>
-            <ul id="front-ul" style={{ fontSize: "x-large" }}>
-              <li>HTML(5)</li>
-              <li>CSS(3)</li>
-              <li>Javascript</li>
-              <li>Angular</li>
-              <li>Bootstrap</li>
-            </ul>
+              <p>HTML(5)</p>
+              <p>CSS(3)</p>
+              <p>Javascript </p>
+              <p>Angular</p>
+              <p>Bootstrap </p>
+            
           </div>
           <hr className="clearfix w-100 d-md-none" />
           <div className="col-md-4">
@@ -55,10 +54,8 @@ export default class Sidebar extends Component {
               id="back"
             />
             <h3>Back-end</h3>
-            <ul id="back-ul" style={{ fontSize: "x-large" }}>
-              <li>Flask| Django | Python</li>
-              <li>PosgreSQL</li>
-            </ul>
+              <p>Flask| Django | Python</p>
+              <p>PosgreSQL</p>
           </div>
           <div className="col-md-4">
             <img
@@ -68,13 +65,11 @@ export default class Sidebar extends Component {
               id="tools"
             />
             <h3>Tools</h3>
-            <ul id="tools-ul" style={{ fontSize: "x-large" }}>
-              <li>Computer:Linux and Windows</li>
-              <li>Text Editor:Visual Studio Code</li>
-              <li>Github</li>
-              <li>Heroku</li>
-              <li>Web Browser:Chrome and Firefox</li>
-            </ul>
+              <p>Computer:Linux and Windows</p>
+              <p>Text Editor:Visual Studio Code</p>
+              <p>Github</p>
+              <p>Heroku</p>
+              <p>Web Browser:Chrome and Firefox</p>
           </div>
         </div>
         <h1
