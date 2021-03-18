@@ -49,7 +49,7 @@ export default class Sidebar extends Component {
               <h2 style={{ paddingLeft: 20 }}>Github Search</h2>
               <p
                 className="platform"
-                style={{ marginLeft: 10, fontSize: "x-large" }}
+                style={{ marginLeft: 10, fontSize: "large" }}
               >
                 Web
               </p>
@@ -63,7 +63,7 @@ export default class Sidebar extends Component {
                   borderRadius: 20,
                 }}
                   />
-              <p style={{ marginLeft: 10, fontSize: "x-large" }}>
+              <p style={{ marginLeft: 10, fontSize: "large" }}>
                 Github Search is an application built using Angular to search
                 for the profile of different github users.
               </p>
@@ -71,7 +71,7 @@ export default class Sidebar extends Component {
                 className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://vigorous-mahavira-083e3a.netlify.app/"
+                href="https://vigorous-mahavira-083e3a.netlify.app/" style={{ marginLeft: 10 }}
               >
                 Visit Website
               </button>
@@ -88,7 +88,7 @@ export default class Sidebar extends Component {
               <h2 style={{ paddingLeft: 20 }}>Mtaafix</h2>
               <p
                 className="platform"
-                style={{ marginLeft: 10, fontSize: "x-large" }}
+                style={{ marginLeft: 10, fontSize: "large" }}
               >
                 Web
               </p>
@@ -100,9 +100,10 @@ export default class Sidebar extends Component {
                   width: 150,
                   paddingTop: 10,
                   borderRadius: 20,
+                  marginLeft: 10,
                 }}
                   />
-              <p style={{ marginLeft: 10, fontSize: "x-large" }}>
+              <p style={{ marginLeft: 10, fontSize: "large" }}>
                 This is a simple application about neighbour hood a user can
                 join a neighbourhood and see businesses on that neightbour hood
                 their posta and also the numba of people residing there.
@@ -111,7 +112,7 @@ export default class Sidebar extends Component {
                 className="btn btn-primary"
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://mtaafix.herokuapp.com"
+                href="https://mtaafix.herokuapp.com" style={{ marginLeft: 10 }}
               >
                 Visit Website
               </button>
@@ -152,7 +153,7 @@ export default class Sidebar extends Component {
                 <h2 style={{ paddingLeft: 20 }}>Gram-App</h2>
                 <p
                   className="platform"
-                  style={{ marginLeft: 10, fontSize: "x-large" }}
+                  style={{ marginLeft: 10, fontSize: "large" }}
                 >
                   Web
                 </p>
@@ -164,9 +165,10 @@ export default class Sidebar extends Component {
                   width: 150,
                   paddingTop: 10,
                   borderRadius: 20,
+                  marginLeft: 10,
                 }}
                   />
-                <p style={{ marginLeft: 10, fontSize: "x-large" }}>
+                <p style={{ marginLeft: 10, fontSize: "large" }}>
                   Instagram clone where one can post, comment on a post, change
                   their profile and also follow people.
                 </p>
@@ -174,7 +176,7 @@ export default class Sidebar extends Component {
                   className="btn btn-primary"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://gramapp-ruiru.herokuapp.com"
+                  href="https://gramapp-ruiru.herokuapp.com" style={{ marginLeft: 10 }}
                 >
                   Visit Website
                 </button>
@@ -191,7 +193,7 @@ export default class Sidebar extends Component {
                 <h1 style={{ paddingLeft: 20 }}>Pizzeria</h1>
                 <p
                   className="platform"
-                  style={{ marginLeft: 10, fontSize: "x-large" }}
+                  style={{ marginLeft: 10, fontSize: "large" }}
                 >
                   Web
                 </p>
@@ -203,9 +205,10 @@ export default class Sidebar extends Component {
                   width: 150,
                   paddingTop: 10,
                   borderRadius: 20,
+                  marginLeft: 10,
                 }}
                   />
-                <p style={{ marginLeft: 10, fontSize: "x-large" }}>
+                <p style={{ marginLeft: 10, fontSize: "large" }}>
                   This projects takes a user's order according to their
                   preference and get the total bill plus a notification that has
                   the users credentials.
@@ -214,7 +217,7 @@ export default class Sidebar extends Component {
                   className="btn btn-primary"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://erastus-1.github.io/Pizzeria/"
+                  href="https://erastus-1.github.io/Pizzeria/" style={{ marginLeft: 10 }}
                 >
                   Visit Website
                 </button>
